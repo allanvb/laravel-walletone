@@ -1,0 +1,37 @@
+{
+    "name": "allanvb/laravel-walletone",
+    "description": "Laravel integration of walletone.com payment gateway",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Konstantin A.",
+            "email": "kostya.dn@gmail.com"
+        },
+        {
+            "name": "Alan VB",
+            "email": "alan.vb@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "^5.5 || ^6 || ^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Allanvb\\LaravelWalletOne\\": "src/"
+        }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Allanvb\\LaravelWalletOne\\Providers\\WalletoneServiceProvider"
+            ],
+            "aliases": {
+                "WalletOne": "Allanvb\\LaravelWalletOne\\Facades\\WalletOne"
+            }
+        }
+    }
+}
