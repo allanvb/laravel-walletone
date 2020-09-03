@@ -111,8 +111,9 @@ Then you can use it as following:
 ```php
 Route::post('/payment-webhook', 'YourController')->middleware('walletone-payment');
 ```
-
-**NOTE:** Don't forget to add your route into `$except` param of `VerifyCsrfToken` middleware !
+**NOTE:** 
+- Your controller should return `WalletOne::response()` method !
+- Don't forget to add your route into `$except` param of `VerifyCsrfToken` middleware !
 
 Each request to your route will generate a `SuccessPayment` or `FailedPayment` event,
 so all you have to do is to define a event listener for each of them.
