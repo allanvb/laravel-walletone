@@ -28,6 +28,7 @@ class WalletonePay
         }
 
         event(new SuccessPayment($request->all()));
-        return WalletOne::response();
+
+        return $next($request);
     }
 }
