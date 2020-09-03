@@ -122,8 +122,8 @@ so all you have to do is to define a event listener for each of them.
 If you discover any security related issues, please email [alan.vb@mail.ru](mailto:alan.vb@mail.ru) instead of using the issue tracker.
 
 ## Credits
-This package is actually a continuity of [pdazcom/laravel-walletone](https://github.com/pdazcom/laravel-walletone) whose author is [Konstantin A.][link-author]
+This package is actually a continuity of [pdazcom/laravel-walletone](https://github.com/pdazcom/laravel-walletone) whose author is [Konstantin A.](https://github.com/pdazcom)
 
 ## License
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
