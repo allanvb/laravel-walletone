@@ -70,7 +70,8 @@ class WalletOne
         'UAH' => 980,
         'KZT' => 398,
         'BYR' => 974,
-        'TJS' => 972
+        'TJS' => 972,
+        'PLN' => 985
     ];
 
     public function __construct($merchantID, $secret, $signatureMethod, $currency, $successURL, $failURL)
