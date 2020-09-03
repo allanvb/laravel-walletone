@@ -71,7 +71,7 @@ WALLETONE_FAIL=fail_url
 To use the WalletOne Library you can access the facade, or request the instance from the service container:
 
 ```php
-WalletOne::->make($orderID, $amount, $description, $options);
+WalletOne::make($orderID, $amount, $description, $options);
 ```
 
 Or
@@ -127,18 +127,3 @@ This package is actually a continuity of [pdazcom/laravel-walletone](https://git
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
-
-[ico-version]: https://img.shields.io/packagist/v/pdazcom/laravel-walletone.svg?style=flat-square
-[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/pdazcom/laravel-walletone/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/pdazcom/laravel-walletone.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/pdazcom/laravel-walletone.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/pdazcom/laravel-walletone.svg?style=flat-square
-
-[link-packagist]: https://packagist.org/packages/pdazcom/laravel-walletone
-[link-travis]: https://travis-ci.org/pdazcom/laravel-walletone
-[link-scrutinizer]: https://scrutinizer-ci.com/g/pdazcom/laravel-walletone/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/pdazcom/laravel-walletone
-[link-downloads]: https://packagist.org/packages/pdazcom/laravel-walletone
-[link-author]: https://github.com/pdazcom
-[link-contributors]: ../../contributors
