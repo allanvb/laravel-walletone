@@ -10,7 +10,6 @@ class WalletoneServiceProvider extends ServiceProvider {
     public function boot()
     {
         $this->publishes([__DIR__ . '/../../config/wallet-one.php' => config_path('wallet-one.php')], 'config');
-        $this->loadViewsFrom(__DIR__ . '/../../views', 'walletone');
     }
 
     public function register()
